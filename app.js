@@ -19,7 +19,7 @@ btn1.addEventListener("click", function () {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText("mehsul secin");
+        tg.MainButton.setText("1ci mehsul secildi");
         item = "1";
         tg.MainButton.show();
     }
@@ -30,7 +30,7 @@ btn2.addEventListener("click", function () {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText("mehsul secin");
+        tg.MainButton.setText("2ci mehsul secildi");
         item = "2";
         tg.MainButton.show();
     }
@@ -41,7 +41,7 @@ btn3.addEventListener("click", function () {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText("mehsul secin");
+        tg.MainButton.setText("3cu mehsul secildi");
         item = "3";
         tg.MainButton.show();
     }
@@ -52,7 +52,7 @@ btn4.addEventListener("click", function () {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText("mehsul secin");
+        tg.MainButton.setText("4cu mehsul secildi");
         item = "4";
         tg.MainButton.show();
     }
@@ -63,7 +63,7 @@ btn5.addEventListener("click", function () {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText("mehsul secin");
+        tg.MainButton.setText("6ci mehsul secildi");
         item = "5";
         tg.MainButton.show();
     }
@@ -74,7 +74,7 @@ btn6.addEventListener("click", function () {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.setText("mehsul secin");
+        tg.MainButton.setText("6ci mehsul secildi");
         item = "6";
         tg.MainButton.show();
     }
@@ -88,8 +88,8 @@ let usercard = document.getElementById("usercard");
 
 let p = document.createElement("p");
 
-p.innerText = `${tg.initDataUnsafe.first_name}
-${tg.initDataUnsafe.last_name}`;
+p.innerText = `${tg.initDataUnsafe.user.first_name}
+${tg.initDataUnsafe.user.last_name}`;
 
 usercard.appendChild(p);
 
