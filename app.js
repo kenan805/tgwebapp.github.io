@@ -88,10 +88,9 @@ let usercard = document.getElementById("usercard");
 
 let p = document.createElement("p");
 
-p.innerText = `test data
-${tg.initDataUnsafe.user.first_name}
+p.innerText = `${tg.initDataUnsafe.user.first_name}
 ${tg.initDataUnsafe.user.last_name}
-${window.Telegram.WebApp.initData}`;
+param: ${window.Telegram.WebApp.initDataUnsafe.start_param}`;
 
 usercard.appendChild(p);
 
